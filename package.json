@@ -1,6 +1,8 @@
 {
+  "name":"tailwind-netfly",
+  "version":"1.0.0",
   "scripts": {
-  "build": "tailwindcss -i ./input/input.css -o ./dist/output.css --minify && cp -r ./src/* ./dist/"
+  "build": "tailwindcss -i ./src/input.css -o ./src/output.css --minify"
 },
   "dependencies": {
     "@tailwindcss/cli": "^4.1.12",
